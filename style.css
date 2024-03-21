@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-left: 15px;
+}
+
+header {
+  /* hadi bach dir l3fsa t3 flou fla bare lfoganya*/
+  position: fixed;
+  z-index: 2;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+header div {
+  /* hado les 2 lien lfoganyin*/
+  font-size: 3.5 em;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: 15px;
+  left: 1300px;
+  a {
+    margin: 15px;
+    width: 100px;
+    text-decoration: none;
+    color: rgb(236, 237, 239);
+  }
+}
+
+header div a:hover {
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.intro {
+  /*hada t3 lktba */
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 2em;
+    font-family: "Noto Sans", serif;
+    font-weight: 600;
+    width: 1000px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  h1 {
+    font-size: 6em;
+    font-family: "Noto Sans", serif;
+    font-weight: 900;
+    width: 1200px;
+    text-align: center;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.scroller {
+  /* hadi t3 bach scrol ykon mnadm*/
+  scroll-snap-type: y mandatory;
+}
+
+.scroller section {
+  scroll-snap-align: start;
+}
+
+.intro video {
+  /* hado les parametre t3 la video*/
+  position: absolute;
+  z-index: -1;
+}
+
+/*had lhaya ri bach la video tkon responsive (tji 3la ga3 les formes t3 les ecrand)*/
+
+@media (min-aspect-ratio: 16/9) {
+  .intro video {
+    width: 100%;
+    height: auto;
+  }
+}
