@@ -4,6 +4,15 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+html {
+  /* hadi t3 bach scrol ykon mnadm*/
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
 .logo {
   height: 80px;
   width: 80px;
@@ -84,15 +93,6 @@ header ul li a:hover {
     margin-bottom: 2px;
     color: rgb(255, 255, 255);
   }
-}
-
-.scroller {
-  /* hadi t3 bach scrol ykon mnadm*/
-  scroll-snap-type: y mandatory;
-}
-
-.scroller section {
-  scroll-snap-align: start;
 }
 
 .intro video {
@@ -185,6 +185,40 @@ header ul li a:hover {
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
+.destinations {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: aqua;
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    width: 25%;
+    position: relative;
+    left: 40%;
+  }
+  p {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    li {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200%;
+      width: 200%;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
   }
@@ -219,7 +253,8 @@ header ul li a:hover {
     }
   }
   .dz,
-  .etranger {
+  .etranger,
+  .destinations {
     font-size: 2em;
     a button {
     }
