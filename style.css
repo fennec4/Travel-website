@@ -296,7 +296,36 @@ header ul li a:hover {
   .etranger,
   .destinations {
     font-size: 2em;
-    a button {
+  }
+}
+
+.footer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  img {
+    height: 20%;
+    width: 20%;
+    padding-top: 5%;
+  }
+  ul {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+      font-size: 3em;
+      color: #e69418;
+      a {
+        color: rgb(255, 255, 255);
+      }
+    }
+    li :hover {
+      color: #e69418;
     }
   }
 }
