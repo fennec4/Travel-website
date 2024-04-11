@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width , initial-scale = 1.0" />
     <title>Choisicez votre destination</title>
     <link href="style.css" rel="stylesheet" />
+    <meta name="viewport" content="width = device-width , initial-scale = 1.0">
+    <script src="script.js" defer></script>
     <link href="resources/logo.png" rel="icon" />
     <!--had l3fsa bach ykhrj logo f la bare lfog-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,8 +21,10 @@
 
         <a href=""><img class="logo" src="resources/logo.png" title="bien_venue" /></a>
         <ul>
-            <li class="services"><a href="#services">Nos services</a></li>
-            <li><a href="#footer">À-propos</a></li>
+            <li class="services">
+                <a href="#services" id="ser">Nos services</a>
+            </li>
+            <li><a href="#footer" id="propo">À-propos</a></li>
         </ul>
     </header>
 
@@ -69,17 +73,26 @@
         </div>
     </section>
     <section class="footer" id="footer">
-        <img src="resources/logo.png">
-        <ul>
-            <li>
-                <p>Contact :</p>
-            </li>
-            <li><a href="">Facebook</a></li>
-            <li>
-                <a href="">Instagram</a>
-            </li>
-            <li><a href="">Tripvisor</a></li>
-        </ul>
+        <div class="img"><img src="resources/logo.png"></div>
+        <div class="list">
+            <ul>
+                <li>
+                    <a class="contact">Contact</a>
+                </li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li>/</li>
+                <li>
+                    <a href="https://www.booking.com/">Booking</a>
+                </li>
+                <li>/</li>
+                <li><a href="https://www.tripadvisor.com/">Tripvisor</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <p>this web site was made by <a href="https://www.linkedin.com/in/imed-eddine-gherras-2b4534302/">Gherras imed</a> and <a href="">Benyebka habib</a></p>
+            <label for="message">Leave us a comment</label>
+            <input type="text" id="message" name="message">
+        </div>
     </section>
 
 </body>
