@@ -27,6 +27,6 @@
      <li> Dubai </li>
      <li> Bali </li>
 </ul>
-<h2>Les createurs du site</h2>
+<h2>Les createurs du site :</h2>
 <p>-    Gherres Imeddine </p>
 <p>-    Benyebka Mohammed Habib</p>
