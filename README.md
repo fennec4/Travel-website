@@ -10,9 +10,6 @@
 
 -    Préparez-vous à vivre des aventures inoubliables et  à créer des souvenirs précieux . Notre site  est votre passeport pour un monde de découvertes extraordinaires. Bon voyage !</p>
 
-<h2>video resume du site :</h2>
-<video autoplay loop muted>
-          <source src="" type="video/mp4" />
 <h2> Les destinations disponible dans notre site :</h2>
 <h3> En Algerie :</h3>
 <ul> <li> Alger </li>
