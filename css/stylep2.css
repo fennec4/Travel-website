@@ -63,6 +63,7 @@ header {
   display: flex;
   padding: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 #photo1 li {
@@ -95,6 +96,7 @@ header {
   display: flex;
   padding: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 #photo2 li {
@@ -120,6 +122,54 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#info {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #8bae98;
+  position: absolute;
+  top: 100vh;
+  display: none;
+  overflow: hidden;
+  .video {
+    background-color: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 2%;
+    left: 20%;
+  }
+  div {
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1,
+    p {
+      text-align: center;
+      width: 90%;
+      height: 100%;
+      font-size: 2.5em;
+    }
+  }
+  #exit {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    height: 5%;
+    width: 3%;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #a9c9b3;
+  }
+  #exit:hover {
+    background-color: #8bae98;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -164,6 +214,10 @@ header {
       width: 90%;
     }
   }
+  #photo1 h2,
+  #photo2 h2 {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 1699px) and (min-width: 800px) {
@@ -188,5 +242,107 @@ header {
   #photo1 h2,
   #photo2 h2 {
     font-size: 4em;
+  }
+  #info {
+    .video {
+      height: 60%;
+      width: 60%;
+    }
+    #exit {
+      top: 2%;
+      right: 2%;
+      font-size: 2em;
+      width: 4%;
+    }
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1700px) {
+  #info {
+    .video {
+      height: 60%;
+      width: 60%;
+    }
+    div {
+      h1,
+      p {
+        font-size: 2em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1441px) and (min-width: 1025px) {
+  #info {
+    .video {
+      left: 25%;
+      height: 50%;
+      width: 50%;
+    }
+    div {
+      h1,
+      p {
+        font-size: 1.5em;
+      }
+    }
+    #exit {
+      width: 4%;
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-width: 730px) {
+  #info {
+    .video {
+      height: 50%;
+      width: 60%;
+    }
+    div {
+      h1,
+      p {
+        font-size: 1.5em;
+      }
+    }
+    #exit {
+      width: 5%;
+      right: 2%;
+      top: 2%;
+    }
+  }
+}
+
+@media screen and (max-width: 730px) and (min-width: 430px) {
+  #info {
+    div {
+      font-size: 0.5em;
+    }
+    .video {
+      width: 60%;
+      height: 40%;
+    }
+    #exit {
+      width: 8%;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  #info {
+    div {
+      p,
+      h1 {
+        font-size: 1em;
+      }
+      bottom: 5%;
+    }
+    .video {
+      left: 5%;
+      width: 80%;
+      height: 40%;
+    }
+    #exit {
+      width: 10%;
+      font-size: 0.8em;
+    }
   }
 }
