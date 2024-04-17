@@ -8,28 +8,29 @@
 
 -   Préparez-vous à vivre des aventures inoubliables et à créer des souvenirs précieux. Notre site est votre passeport pour un monde de découvertes extraordinaires. Bon voyage ! 
 
--    </p>
+     </p>
 
 <h2> Les destinations disponible dans notre site :</h2>
-<h3> En Algerie :</h3>
+<h3> En Algérie :</h3>
 <ul> <li> Alger </li>
      <li> Oran </li>
      <li> Djanet </li>
      <li> Béjaïa </li>
      <li> El-Bayadh </li>
-     <li> Telemcen </li>
+     <li> Tlemcen </li>
 </ul>
 <h3> En étranger </h3>
-<ul> <li> Paris </li>
+<ul> <li>Paris </li>
      <li> Istanbul </li>
      <li> New york </li>
      <li> Hawai </li>
      <li> Dubai </li>
      <li> Bali </li>
 </ul>
+
 <h2>Les createurs du site :</h2>
-<p>Gherass Imadeddine</p>
-<p>Benyebka Mohamed Habib</p>
+<p>Gherras imed eddin</p>
+<p>Benyebka Mohammed Habib</p>
 <p>Bensebane Abdellah </p>
-<p>Bensoultan Adem Hebri </p>
-<p>BabaHacen Mustapha </p>
+<p>Bensoltane Adem Hebri </p>
+<p>BabaHacene Mustapha </p>
