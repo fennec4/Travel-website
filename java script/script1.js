@@ -49,14 +49,14 @@ function popup() {
           vid.src = "//www.youtube.com/embed/pHmZtSnySgE?si=3dtqWeUHNcezeTAd";
           titl.textContent = "Tlemcen";
           text.textContent =
-            "Tlemcen, cette ville historique nichée dans les contreforts des montagnes de l'Atlas . Connue comme la 'Perle du Maghreb', elle séduit par ses ruelles étroites où se mêlent l'architecture mauresque et les influences ottomanes. Les jardins luxuriants et les fontaines ornées de carreaux de faïence offrent des oasis de fraîcheur . Tlemcen est un  véritable joyau du patrimoine algérien, invite à un voyage dans le temps où le charme oriental opère à chaque instant";
+            "Telemcen, cette ville historique nichée dans les contreforts des montagnes de l'Atlas . Connue comme la 'Perle du Maghreb', elle séduit par ses ruelles étroites où se mêlent l'architecture mauresque et les influences ottomanes. Les jardins luxuriants et les fontaines ornées de carreaux de faïence offrent des oasis de fraîcheur . Tlemcen est un  véritable joyau du patrimoine algérien, invite à un voyage dans le temps où le charme oriental opère à chaque instant";
           break;
         case 4:
           vid.src =
             "https://www.youtube.com/embed/nMVpkdI6tb8?si=TnMz01keBfL4vUqF";
-          titl.textContent = "Bayade";
+          titl.textContent = "Brezina";
           text.textContent =
-            "Bayade, petite bourgade nichée au cœur des collines verdoyantes du nord-ouest de l'Algérie, offre un havre de paix loin de l'agitation urbaine. Entourée de vergers luxuriants et de champs d'oliviers . Bayade, loin des sentiers touristiques battus, dévoile ses trésors cachés aux voyageurs curieux, leur offrant une expérience authentique et immersive dans la vie de la campagne algérienne";
+            "Plongez au cœur de l'Algérie et découvrez Brezina, une ville nichée entre les montagnes et les plaines. Brezina c'est bien plus qu'une destination de voyage, c'est une invitation à l'émerveillement et à la découverte. Laissez-vous séduire par le charme envoûtant de cette ville authentique, où chaque instant réserve son lot de surprises et d'émotions";
           break;
         case 5:
           vid.src =

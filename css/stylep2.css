@@ -127,7 +127,7 @@ header {
 #info {
   width: 100%;
   min-height: 100vh;
-  background-color: #8bae98;
+  background-color: #8bae98e9;
   position: absolute;
   top: 100vh;
   display: none;

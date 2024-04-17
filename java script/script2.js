@@ -54,7 +54,7 @@ function popup() {
           break;
         case 4:
           vid.src =
-            "https://www.youtube.com/embed/11hdtmneAVE?si=Pnz3DZpPJV8SOLFe";
+            "https://www.youtube.com/embed/TmDKbUrSYxQ?si=OGvuZ7FBSZabiw4F";
           titl.textContent = "New York";
           text.textContent =
             "New York, la ville qui ne dort jamais, est une métropole bouillonnante d'énergie et de diversité. Avec ses gratte-ciel emblématiques comme l'Empire State Building et le One World Trade Center, ses quartiers animés tels que Times Square et Greenwich Village, et ses institutions culturelles de renommée mondiale comme le Metropolitan Museum of Art et Broadway, la ville offre une multitude d'expériences uniques";
