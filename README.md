@@ -13,7 +13,7 @@
 
 - Préparez-vous à vivre des aventures inoubliables et à créer des souvenirs précieux . Notre site est votre passeport pour un monde de découvertes extraordinaires. Bon voyage !</p>
      </p>
-<a src="https://travelunivers.netlify.app/">cliquez pour observer</a>
+<a href="https://travelunivers.netlify.app/">cliquez pour observer</a>
 
 <h2> Les destinations disponible dans notre site :</h2>
 <h3> En Algérie :</h3>
