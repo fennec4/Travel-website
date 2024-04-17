@@ -30,6 +30,6 @@
 <h2>Les createurs du site :</h2>
 <p>Gherass Imadeddine</p>
 <p>Benyebka Mohamed Habib</p>
-<Bensebane Abdellah> 
-<Bensoultan Adem Hebri >
-<BabaHacen Mustapha >
+<p>Bensebane Abdellah </p>
+<p>Bensoultan Adem Hebri </p>
+<p>BabaHacen Mustapha </p>
